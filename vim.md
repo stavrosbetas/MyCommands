@@ -7,7 +7,7 @@ Replace all "foo" with "bar" inside the file
 ```
 
 #### Add character(s) in the beginning of xyz lines
-Comment lines 1 to line 4
+Comment lines 1 to 4
 ```bash
 :1,4s/^/#/
 ```
