@@ -29,3 +29,66 @@
 `mv xdebug.ini xdebug.ini.bak`
 
 ## -------------------------
+
+
+## Vagrant commands
+#### start machine
+
+`vagrant up`
+
+#### stop machine
+
+`vagrant halt`
+
+#### connect as root
+
+`vagrant ssh`
+
+#### more commands
+
+`pwd`
+
+`cd`
+
+`ll`
+
+`httop`
+
+`history`
+
+`ln -s`
+
+`chmod+x`
+
+`sudo`
+
+`cat`
+
+`vim`
+
+`touch`
+
+`vagrant status`
+
+`vagrant destroy`
+
+`mkdir`
+
+`clear`
+
+`mv`
+
+`cp`
+
+`ifconfig`
+
+`rmdir`
+
+`rm -rf`
+
+`ssh-copy-id root@192....`
+
+`chown -R nginx:nginx <folder-name>`
+
+
+## -------------------------
