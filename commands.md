@@ -90,5 +90,4 @@
 
 `chown -R nginx:nginx <folder-name>`
 
-
 ## -------------------------
