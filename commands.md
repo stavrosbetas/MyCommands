@@ -12,14 +12,11 @@
 #### Stop the program
 `kill <program_id>`
 
-## -------------------------
-
 ## Create a user in magento
 #### Connect to your virtual box as root at your project root folder and run
 
 `n98-magerun.phar admin:user:create`
 
-## -------------------------
 
 ## If your Xdebug keeps running
 #### Connect to your virtual box as root and change xdebug.ini name
@@ -28,66 +25,66 @@
 
 `mv xdebug.ini xdebug.ini.bak`
 
-## -------------------------
 
+## Extra commands
 
-## Vagrant commands
-#### start machine
-
-`vagrant up`
-
-#### stop machine
-
-`vagrant halt`
-
-#### connect as root
-
-`vagrant ssh`
-
-#### more commands
-
+#### Shows you your full path
 `pwd`
 
-`cd`
+#### Change directory
+`cd` `cd ..` `cd ~/`
 
+#### Shows you a list of a folder
 `ll`
-
+#### Full detail of cpu and other
 `httop`
 
+#### Shows your commands history
 `history`
 
-`ln -s`
+#### Creates a link for a path
+`ln -s` ### `ln -s home/user/programs programs`
 
+#### Makes a file executable
 `chmod+x`
 
+#### Run as super user (super user do)
 `sudo`
 
+#### Shows you in your terminal a file (cat filename)
 `cat`
 
+#### Opens the vim editor to edit a file (vim filename)
 `vim`
 
+#### Creates a new file (touch i.php)
 `touch`
 
-`vagrant status`
-
-`vagrant destroy`
-
+#### Creates a new directory/folder
 `mkdir`
 
+#### Clears your terminal
 `clear`
 
+#### Rename a filename (mv i.php t.php)
 `mv`
 
+#### cp a file (cp source destination)
 `cp`
 
+#### Shows you the ip of your current working directory
 `ifconfig`
 
+#### Removes a directory/folder
 `rmdir`
 
+#### Removes everything you want instantly
 `rm -rf`
 
+#### Enables password authentication
 `ssh-copy-id root@192....`
 
+#### Gives nginx rights
 `chown -R nginx:nginx <folder-name>`
 
 ## -------------------------
