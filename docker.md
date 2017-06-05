@@ -13,7 +13,7 @@
 `docker build -t my-nginx .`
 
 #### Tag a container
-`docker tag my-nginx docker.example.com/my-nginx:0.1`
+`docker tag my-nginx docker.example.com/my-nginx:0.1` </br>
 `docker tag docker.example.com/my-nginx:0.1 docker.example.com/my-nginx:latest`
 
 #### Push container to repository
